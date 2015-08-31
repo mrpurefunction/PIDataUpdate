@@ -127,7 +127,7 @@
             // realstatuslabel
             // 
             this.realstatuslabel.AutoSize = true;
-            this.realstatuslabel.Location = new System.Drawing.Point(325, 122);
+            this.realstatuslabel.Location = new System.Drawing.Point(325, 151);
             this.realstatuslabel.Name = "realstatuslabel";
             this.realstatuslabel.Size = new System.Drawing.Size(53, 12);
             this.realstatuslabel.TabIndex = 8;
@@ -141,6 +141,7 @@
             this.avgstatuslabel.Size = new System.Drawing.Size(53, 12);
             this.avgstatuslabel.TabIndex = 9;
             this.avgstatuslabel.Text = "状态: 无";
+            this.avgstatuslabel.Visible = false;
             // 
             // bothupdate_btn
             // 
